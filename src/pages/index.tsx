@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import HomeComponent from '@/components/home'
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -12,7 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main >
-        <HomeComponent />
+        <div className="h-full w-screen grid place-content-center">
+          <Link href="/faq">
+            sign in with twitter
+          </Link>
+        </div>
       </main>
     </>
   )

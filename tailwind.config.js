@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  important: true,
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -10,7 +9,11 @@ module.exports = {
     fontFamily: {
       sans: ["var(--font-inter)"],
     },
-    extend: {},
+    extend: {
+      fontSize: {
+        "7xl": "81px",
+      }
+    },
   },
   plugins: [],
 }
