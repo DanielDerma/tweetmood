@@ -15,32 +15,32 @@
 
 ## :toolbox: Getting Started
 
+One click deploy: 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/danielderma/tweetmood)
 
 ### :bangbang: Prerequisites
 
 - Install Node JS in your computer <a href='https://nodejs.org/en/'>HERE</a>
-
 ### :gear: Installation
 
-![](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-Install my-project with expo
-
-![](https://img.shields.io/badge/Expo-02569B?style=for-the-badge&logo=Expo&logoColor=white)
-
-Installing Expo CLI
-
+Clone the repo
 ```
-npm install --global expo-cli
+git clone https://github.com/danielderma/tweetmood
 ```
 
-Initializing the project
+Enter directory
+```
+cd tweetmoood
+```
+
+Install dependencies
+```
+npm install
+```
+
+:rocket: Running the app
 
 ```
-npx create-expo-app deliveroo-clone
+npm run dev
 ```
 
-```
-cd deliveroo-clone
-```
