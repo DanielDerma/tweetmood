@@ -13,8 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
           --font-inter: ${inter.style.fontFamily};
         }
       `}</style>
-    <main className="font-sans m-5 mx-8">
-      <Header />
+    <main className="font-sans">
       <Component {...pageProps} />
     </main>
   </>
