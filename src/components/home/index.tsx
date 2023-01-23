@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="text-lg">Add item</div>
+    <div className="text">tweetmood</div>
   )
 }
 
